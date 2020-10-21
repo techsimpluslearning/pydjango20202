@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django_celery_results',
     'rest_framework',
     'corsheaders',
-    'API',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +78,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db..sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
