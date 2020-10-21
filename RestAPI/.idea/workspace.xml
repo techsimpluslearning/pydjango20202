@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b2bcf04e-3abd-4fee-bc18-03264ee12abf" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="b2bcf04e-3abd-4fee-bc18-03264ee12abf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/settings.py" afterDir="false" />
+    </list>
+>>>>>>> parent of adb3150... I made some changes in Settings file
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +86,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603200271030</updated>
+<<<<<<< HEAD
       <workItem from="1603200280143" duration="9929000" />
+=======
+      <workItem from="1603200280143" duration="9749000" />
+>>>>>>> parent of adb3150... I made some changes in Settings file
     </task>
     <servers />
   </component>
