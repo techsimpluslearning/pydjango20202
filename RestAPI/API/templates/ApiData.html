@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My API</title>
+</head>
+<body>
+<CENTER>
+    <h2>List of My All Posts</h2>
+    <div id = "posts">
+
+    </div>
+
+</CENTER>
+
+<script>
+    var Posts = []
+    var PostElement = document.getElementById("posts")
+    fetch("http://127.0.0.1:7000/api/")
+        .then((response) => response.json()).then((response) => {
+            var Data = "";
+            for (var i = 0; i < response.length; i++) {
+                Data = Data + "<li>" + response[i].title + "</li>"
+            }
+                //Data = Data + "<li>${Posts[i]}</li>"
+            PostElement.innerHTML = Data
+    })
+
+
+</script>
+
+
+</body>
+</html>
